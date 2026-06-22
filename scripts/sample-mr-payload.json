@@ -1,0 +1,11 @@
+{
+  "iid": 42,
+  "title": "Refactor deploy_user to support multi-region deploys",
+  "projectFullPath": "your-group/your-project",
+  "sourceBranch": "feature/multi-region-deploy",
+  "targetBranch": "main",
+  "mergedAt": "2026-06-22T10:00:00Z",
+  "author": "julius",
+  "changedFiles": ["src/deploy/deployUser.js", "src/deploy/deployUser.test.js"],
+  "touchedSymbols": ["deploy_user"]
+}

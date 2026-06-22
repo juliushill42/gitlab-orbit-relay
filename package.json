@@ -1,0 +1,22 @@
+{
+  "name": "orbit-relay",
+  "version": "0.1.0",
+  "description": "Multi-agent release pipeline relay grounded in GitLab Orbit's lifecycle context graph",
+  "license": "MIT",
+  "type": "module",
+  "main": "src/relay.js",
+  "bin": {
+    "orbit-relay": "./scripts/cli.js"
+  },
+  "scripts": {
+    "start": "node src/relay.js",
+    "cloud": "node src/cloud/server.js",
+    "test": "node --test test/*.test.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
